@@ -1,0 +1,60 @@
+*{
+padding:0px;
+margin: 0px;
+box-sizing: border-box;
+}
+div#wrapper{
+    width: 700px;
+    height: 500px;
+    border: 3px solid black;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: gold;
+}
+div#pad1{
+    height: 200px;
+    position: absolute;
+    width: 100px;
+    left: 597px;
+    background-color: black ;
+    animation: moving 7s infinite;
+}
+div#pad2{
+    height: 200px;
+    position: absolute;
+    top: 297px;
+    width: 100px;
+    left: 597px;
+    background-color: black ;
+    animation: moving 7s infinite;
+}
+@keyframes moving {
+    from{
+        left: 597px;
+
+    }
+    to{
+        left:-100px;
+    }
+}
+div#ball{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(230, 22, 15);
+    border-radius: 50%;
+    position: relative;
+top: 150px;
+}
+h1{
+    position: relative;
+    left: 20px;
+}
+#score{
+    position: relative;
+    left: 1000px;
+}
+#hiscore{
+    position: relative;
+    left: 1000px;
+}
